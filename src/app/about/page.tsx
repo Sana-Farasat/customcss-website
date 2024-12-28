@@ -7,7 +7,7 @@ export default function About() {
     <main className="about-container">
       <h1>About Me</h1>
       <h2 className="about-head">
-        Hi there! I'm Sana Farasat, and welcome to my travel blog!
+        Hi there! I&apos;m Sana Farasat, and welcome to my travel blog!
       </h2>
       <p className="about-para">
         I am an avid traveler, explorer, and adventure seeker who believes that
