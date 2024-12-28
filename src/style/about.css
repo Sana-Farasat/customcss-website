@@ -11,7 +11,7 @@ h1 {
   color: blue;
 }
 
-h2 {
+.about-head {
   text-align: center;
   font-size: 3em;
   font-family: "Times New Roman", Times, serif;
@@ -19,8 +19,8 @@ h2 {
   color: blue;
 }
 
-p {
-  text-align: center;
+.about-para {
+  margin: 1% 5%;
   font-size: 2em;
   font-family: "Times New Roman", Times, serif;
   font-weight: 200;
@@ -28,7 +28,7 @@ p {
   padding: 1em 2em;
 }
 
-p {
+.about-para {
   transform: translateX(-100%); /* Initially off-screen to the left */
   animation: slideIn 2s ease-out forwards; /* Slide-in animation */
 }
@@ -84,8 +84,11 @@ p {
   h1 {
     font-size: 2em;
   }
-  h2 {
+  .about-head {
     font-size: 1em;
+  }
+  .about-para {
+    padding: 1em 0.5em;
   }
 }
 
@@ -98,9 +101,10 @@ p {
   h1 {
     font-size: 4em;
   }
-  h2 {
+  .about-head {
     font-size: 2em;
   }
+  .about-para {
+    padding: 1em 0.6em;
+  }
 }
-
-

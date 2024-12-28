@@ -1,65 +1,64 @@
 .contact-container {
-    max-width: 1500px;
-    margin: 0 auto;
-  }
-  
+  max-width: 1500px;
+  margin: 0 auto;
+}
 
-  .contact-content{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 30px;
-  }
-  
-  .contact-div1 {
-    width: auto; /* Make sure it takes full width of the grid cell */
-    height: fit-content;
-  }
-  
-  .contact-div2 {
+.contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+}
+
+.contact-div1 {
+  width: auto; /* Make sure it takes full width of the grid cell */
+  height: fit-content;
+}
+
+.contact-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-head {
+  font-size: 3em;
+  font-weight: 600;
+  color: #4338ca;
+}
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  border: 2px solid gray;
+}
+
+.contact-btn {
+  padding: 10px 40px;
+  background-color: #4338ca;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.contact-btn:hover {
+  background-color: #4f46e5;
+}
+
+@media (max-width: 425px) {
+  .contact-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Adjust alignment of form elements */
   }
-  
-  h2{
-    font-size: 3em;
-    font-weight: 600;
-    color: #4338ca;
-  }
-  input, textarea {
-    margin: 10px 0;
-    padding: 10px;
-    width: 100%;
-    font-size: 1.5em;
-  }
-  
-  button {
-    padding: 10px 40px;
-    background-color: #4338ca;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 1.5em;
-  }
-  
-  button:hover {
-    background-color: #4f46e5;
-  }
-  
-  @media (max-width: 425px){
-    .contact-content{
-        display: flex;
-        flex-direction: column;
-        
-    }
-  }
+}
 
-  @media (max-width: 768px){
-    .contact-content{
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 768px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
   }
+}

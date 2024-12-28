@@ -1,0 +1,27 @@
+.hero-section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.hero-sub-container {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero-sub-container {
+    gap: 3%;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-sub-container {
+    margin: 6% auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1%;
+  }
+}
